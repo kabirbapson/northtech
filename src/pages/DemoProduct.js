@@ -122,7 +122,7 @@ const DemoProduct = (props) => {
                             <div className="flex">
                                 <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Demo our products</h1>
                             </div>
-                            <div className="flex items-center my-4">
+                            {/* <div className="flex items-center my-4">
                                 <input 
                                     id="checkbox-1" 
                                     aria-describedby="checkbox-1" 
@@ -161,7 +161,7 @@ const DemoProduct = (props) => {
                                     value="event_management_system" onChange={handleChange}
                                 />
                                 <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Event Management System</label>
-                            </div>
+                            </div> */}
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>
                             }
@@ -256,7 +256,8 @@ const DemoProduct = (props) => {
                                 </div>
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                    <p className="text-gray-400">Flat 6, Block 6, Pankshin Close, Off Emeka Anyaoku Street, Garki, FCT, Abuja, Nigeria</p> 
+                                    <p className="text-gray-400">10175 fortune Pkwy, Unit 1103-116, Jacksonville FLORIDA  32256, United States</p>
                                 </div>
                             </div>
                             
@@ -267,11 +268,12 @@ const DemoProduct = (props) => {
 
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: 08055384406</p>
+                                    <p className="text-gray-400">Tel: +234 9159374626</p>
+                                    <p className="text-gray-400">Tel: +1 (904) 648-8813</p>
                                 
                                     <div className='mt-5'>
-                                        <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                        <h2 className="text-2xl">Send an Email</h2>
+                                        <p className="text-gray-400">info@northteck.com.ng </p>
                                     </div>
                             
                                 </div>
