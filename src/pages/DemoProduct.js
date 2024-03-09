@@ -19,19 +19,19 @@ const DemoProduct = (props) => {
     const [errors, setErrors] = useState([])
 
 
-    const handleChange = (e) => {
-        const value = e.target.value
-        const checked = e.target.checked
-        errors.products = []
-        if(checked) {
-            setDemoProducts([
-                ...demoProducts, value
-            ])
-        } else {
-            setDemoProducts(demoProducts.filter( (e) => (e !== value )))
-        }
+    // const handleChange = (e) => {
+    //     const value = e.target.value
+    //     const checked = e.target.checked
+    //     errors.products = []
+    //     if(checked) {
+    //         setDemoProducts([
+    //             ...demoProducts, value
+    //         ])
+    //     } else {
+    //         setDemoProducts(demoProducts.filter( (e) => (e !== value )))
+    //     }
        
-    }
+    // }
     const clearErrors = () => {
         setErrors([])
     }
