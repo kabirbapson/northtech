@@ -15,7 +15,7 @@ const DemoProduct = (props) => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
-    const [demoProducts, setDemoProducts ] = useState([])
+    // const [demoProducts, setDemoProducts ] = useState([])
     const [errors, setErrors] = useState([])
 
 
@@ -54,7 +54,7 @@ const DemoProduct = (props) => {
         fData.append('email', email)
         fData.append('phone_number', phone)
         fData.append('message', message)
-        fData.append('products', demoProducts)
+        // fData.append('products', demoProducts)
 
         // emailjs.sendForm('service_7uy4ojg', 'template_et9wvdg', e.target, 'user_uE0bSPGbhRTmAF3I2fd3s')
         //   .then((result) => {
