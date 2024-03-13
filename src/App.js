@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("NORTHteck | NORTHteck.io - Simplifying Tech Solutions for Success");
+  useDocTitle("NORTHteck.io - Simplifying Tech Solutions for Success");
 
   return (
     <>
