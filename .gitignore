@@ -1,1 +1,8 @@
 node_modules
+<<<<<<< HEAD
+=======
+.next
+
+/node_modules
+/.next/
+>>>>>>> main
